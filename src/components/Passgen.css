@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#screen{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(58, 83, 34);
+}
+#mainbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    border-radius: 40px;
+    background-color: rgb(21, 20, 20);
+    width: 80vw;
+    height: 80vh;
+}
+#upper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#textbox{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(228, 211, 211);
+    color: rgb(29, 61, 96);
+    font-weight: 800;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    padding-left: 4px;
+    border: 1px snow;
+}
+button{
+    margin-left: 30px;
+    width: 80px;
+    height: 50px;
+    cursor:all-scroll;
+    background-color: rgb(130, 45, 45);
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: larger;
+    border: 1px snow;
+    transition: ease-in-out 0.3s;
+}
+button:hover{
+    background-color: whitesmoke;
+    color:  rgb(130, 45, 45);
+}
+#lower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#slider{
+    margin-right: 20px;
+}
+
+input[type="range"] {
+    width: 200px;
+    height: 1px;
+    -webkit-appearance: none; 
+    appearance: none; 
+    background: #f9f3f3; 
+    outline:none;
+}
+  
+input[type="range"]::-webkit-slider-runnable-track {
+    width: 200px;
+    height: 5px; 
+    background: #5d5a5a; 
+    border-radius: 3px; 
+}
+  
+input[type="range"]::-webkit-slider-thumb {
+    width: 20px; 
+    height: 20px;
+    background: #333;
+    border-radius: 50%; 
+    cursor: pointer; 
+    -webkit-appearance: none; 
+    appearance: none;
+}
+  
+input[type="range"]::-webkit-slider-thumb:hover {
+    background:rgb(130, 45, 45);
+  
+}
+  
+input[type="range"]:active::-webkit-slider-thumb {
+    background: rgb(130, 45, 45); 
+  
+}
+label{
+    color: whitesmoke;
+    font-size: large;
+    font: bold;
+}
+input[type="checkbox"]{
+    background-color: #000000;
+    size: 20px;
+
+}
+  
+h1{
+    color: rgb(58, 83, 34);
+}
